@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 02</title>
+    <style>
+        figure {
+            margin: 20px 0; 
+        }
+        
+        #miImagen {
+            display: block; 
+            background-color: #eee;
+            object-fit: fill; 
+        }
+    </style>
+</head>
+<body>
+    <h2>Ejercicio 02: Tamaño de Imagen</h2>
+    
+    
+    <input type="number" id="ancho" min="0" placeholder="Ancho (ej: 300)">
+    <input type="number" id="largo" min="0" placeholder="Largo (ej: 300)">
+    <button onclick="cambiarTamano()">Mostrar con datos</button>
+    
+    <figure>
+        
+        <img id="miImagen" src="https://picsum.photos/id/237/150/150" alt="Imagen dinámica" style="width: 150px; height: 150px;">
+    </figure>
+
+    <script src="script.js"></script>
+</body>
+</html>

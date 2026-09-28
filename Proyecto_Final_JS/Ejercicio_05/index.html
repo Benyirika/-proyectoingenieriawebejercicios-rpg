@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 05</title>
+    <style>
+        #espacio { width: 600px; height: 600px; background-color: #e0e0e0; position: relative; border: 2px solid #000; margin-top: 10px; }
+        #objeto { width: 40px; height: 40px; background-color: #3498db; position: absolute; top: 280px; left: 280px; }
+    </style>
+</head>
+<body>
+    <h2>Ejercicio 05: Mover Objeto</h2>
+    <button onclick="mover('arriba')">Arriba</button>
+    <button onclick="mover('abajo')">Abajo</button>
+    <button onclick="mover('izquierda')">Izquierda</button>
+    <button onclick="mover('derecha')">Derecha</button>
+    
+    <div id="espacio">
+        <div id="objeto"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
